@@ -1,0 +1,452 @@
+/* Default CSS */
+body,h1,h2,h3,h4,h5,h6,p,span{
+    font-family:'Work Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+section{
+    padding-left: 2.8%;
+    padding-right: 2.8%;
+}
+/* Header Section Start */
+.customize-navbar img{
+   height: 45px;
+   width: auto;
+   margin-right: 10px;
+}
+.customize-navbar span{
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 36px;
+    margin-top: 10px;
+    transition: .5s;
+}
+.customize-navbar span:hover{
+    color:#cccccc ;
+}
+/* Header Section End */
+
+/* Main saection Start */
+
+/* Slider Section Start */
+.slider{
+    background: url(https://mobirise.com/extensions/appamp/assets/images/mbr-10.jpg) no-repeat center center;
+    padding: 200px 0;
+    position: relative;
+    z-index: 1;
+}
+.slider::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.492);
+    z-index: -1;
+}
+.slider h3{
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 38px;
+    margin-bottom: 30px;
+}
+.slider h1{
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 63px;
+    margin-bottom: 50px;
+}
+.slider .form-control{
+    padding: 20px 20px;
+   
+}
+.slider .btn{
+    padding: 20px 20px;
+    font-weight: bold;
+}
+
+/* Counter Section */
+.counter-content h1{
+  font-size: 58px;
+  margin-top: 20px;
+}
+.counter-content h4{
+    margin-bottom: 30px;
+}
+/* Slider Section End */
+/* About Section Srart */
+.about{
+    background-color: #F7F9FF;
+}
+.about h1{
+    margin-bottom: 30px;
+    font-size: 42px;
+    margin-top: 80px;
+}
+.about p{
+    font-size: 22px;
+    line-height: 2.4;
+}
+/* About Section End */
+/* Feature Section Start */
+.feature-item{
+    height: 300px;
+    margin-top: 65px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.24);
+    transition: .5s;
+} 
+.feature-item:hover{
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.44);
+}
+.left-img{
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+.left-img img{
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    left: -120px;
+}
+.right-text{
+    width: 60%;
+    padding: 25px;
+}
+.right-text p{
+    font-size: 18px;
+}
+/* Feature Section End */
+/* Application Section Start */
+.application{
+    background-color: #FFFFFF;
+}
+.a-content{
+    position: relative;
+}
+.a-content a::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    background-color:rgba(98, 121, 223, 0.726);
+    transition: .5s;
+}
+.a-content:hover a::after{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/* Application Section End */
+
+/* Pricing Section */
+.pricing-section{
+    background-color: #F7F9FF;
+}
+.pricing-section .hey{
+    font-size: 55px;
+}
+.pricing-section p{
+    font-size: 28px;
+}
+.pricing-item {
+    box-shadow: 0 0 25px rgba(47, 35, 112, 0.22);
+    padding: 70px 30px;
+    background-color: #fff;
+    border-radius: 6px;
+}
+.pricing-item ul{
+    list-style: none;
+}
+.pricing-item ul li{
+    margin: 25px 0;
+    font-size: 21px;
+    line-height: 31px;
+    font-weight: 300;
+    color: #767676;
+}
+.pricing-item .p-icon{
+    font-size: 31px;
+    margin-right: 10px;  
+    color: mediumslateblue;
+    font-weight: bold;
+    display: inline-block;
+    width: 40px;
+}
+.pricing-item .btn{
+    box-shadow: 0 0 25px rgba(47, 35, 112, 0.22);
+    border-color: mediumslateblue;
+    border-width: 2px;
+    color: mediumslateblue;
+}
+.pricing-item .btn:hover{
+    background-color: mediumslateblue;
+    color: white;
+}
+
+/* Testemonial Section */
+.t-content h4{
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 38px;
+    color: #767676;
+}
+.author-info{
+    width: 220px;
+    margin: auto;
+}
+.t-content h1{
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 63px;
+}
+.testimonial span{
+    font-size: 95px;
+    color: #76767659;
+    line-height: 0px;
+}
+.testimonial .author-info img{
+    width: 70px;
+}
+/* Team Section Start */
+.team{
+    background-color: #F7F9FF;
+    padding: 80px 0;
+}
+.team .text h1{
+    font-size: 49px;
+}
+.team .card{
+    box-shadow: 0 0 25px #76767642;
+    margin-top: 0px;
+}
+.team .card img{
+    width: 120px;
+    height: auto;
+    margin-top: -70px;
+    margin-left: 25px;
+
+}
+.team .card .btn{
+    box-shadow: 0 0 25px #76767642;
+}
+.team .card h6{
+    font-size: 18px;
+}
+.team .card .author-info{
+
+}
+/* Contact Section */
+.contact{
+    padding: 75px 0;
+}
+.contact .card{
+    box-shadow: 0 0 25px #76767642;
+}
+.contact .card .go{
+    padding: 20px;
+}
+
+/* App Section Start */
+.app .a-btn{
+    color:greenyellow ;
+    border: 2px solid rgb(93, 209, 27);
+    transition: .5s;
+   
+}
+.app .a-btn:hover{
+    color: #ffffff;
+    background-color: #5ba533;
+    border-color: #5ba533;
+    box-shadow: 3px 3px 27px -3px #5ba533;
+}
+.app .a-btn2{
+    color: #ffffff;
+    background-color: #5ba533;
+    border-color: #5ba533;
+    box-shadow: 3px 3px 27px -3px #5ba533;
+    transition: .5s;
+}
+.app .a-btn2:hover{
+    color:greenyellow ;
+    border: 2px solid rgb(93, 209, 27);
+    transition: .5s;
+}
+.app .a-btn2{
+    font-weight: bold;
+}
+.app .app-img{
+   max-width: 35%; 
+}
+.btn-div{}
+.inner-btn{
+    background-color:#6278DF ;
+    padding:12px 20px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 6px;
+    border: 1px solid #6278DF;
+    transition: .5s;
+    margin-right: 10px;
+}
+.inner-btn:hover{
+    border: 1px solid #6278DF;
+    color: #6278DF;
+    background-color: #fff;
+    box-shadow: 3px 3px 27px -3px #6278DF;
+}
+.inner-btn:hover a{
+    color: #6278DF;
+}
+.inner-btn i{
+    font-size: 22px;
+}
+.inner-btn a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 12px;
+    font-size: 18px;
+}
+.bgc{
+    background-color: rgba(128, 128, 128, 0.192);
+}
+/* Main saection End */
+
+/* Footer Secton Start */
+/* Footer Secton End */
+
+
+
+/* Responsive CSS */
+@media  all and (max-width:1200px) {
+    
+.right-text p {
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.right-text {
+   
+    padding: 14px;
+}
+p.lead {
+    margin-bottom: -2px;
+}
+}
+@media  all and (max-width:1200px) {
+    .about h1 {
+        margin-bottom: 30px;
+        font-size: 38px;
+        margin-top: -7px;
+    }  
+    .about p{
+        line-height: 44px;
+    }
+}
+@media  all and (max-width:990px) {
+    .slider {
+      
+        padding: 161px 0;
+    }
+    .about h1 {
+        margin-bottom: 20px;
+        font-size: 34px;
+    }
+        .about p {
+            line-height: 31px;
+            margin-bottom: 59px;
+        }
+        h1.mb-4.hey {
+            font-size: 45px;
+        }
+        .t-content h1 {
+           
+            font-size: 41px;
+            line-height: 58px;
+        }
+        .t-content h4 {
+           
+            font-size: 25px;
+            line-height: 35px;
+           
+        }
+        .team .card {
+           
+            margin-top: 123px;
+        }
+        a.btn.font-weight-bold.btn-outline-primary {
+            margin-left: 46px;
+        } 
+
+    }
+    @media  all and (max-width:768px) {
+       
+    }
+    @media  all and (max-width:730px) {
+        p.lead {
+            font-size: 20px;
+        }
+        section.pricing-section p {
+            font-size: 23px;
+        }
+        .pricing-item ul li {
+            margin: 19px 0;
+            font-size: 18px;
+            line-height: 29px;
+           
+          
+        }
+        .pricing-item { 
+            padding: 65px 20px;
+           
+            
+        }
+        ul {
+            padding-left: 0;
+        }
+        .pricing-item ul li {
+            margin: 19px 0;
+            font-size: 19px;
+            line-height: 25px;
+           
+        }
+        .t-content h1 {
+            margin-top: 9px;
+            font-size: 36px;
+            line-height: 46px;
+        }
+        .t-content h4 {
+            font-size: 24px;
+        
+        }
+        .team .text h1 {
+            font-size: 41px;
+        }
+
+    }   
+    @media  all and (max-width:576px) {
+         .ghamela {
+            margin-top: 0px!important;
+            margin-bottom: 25px;
+}
+    }
+    @media  all and (max-width:430px) {
+        .testimonial span {
+            font-size: 82px;
+
+        }
+      
+    }    
+    @media  all and (max-width:400px) {
+        button.inner-btn1 {
+            margin-bottom: 14px;
+        }
+    }    
